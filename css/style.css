@@ -1,0 +1,47 @@
+/*reseteo de todos los estilos en 0*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: rgba(83, 87, 86, 0.726);
+}  
+
+#hoja{
+    width: 21cm;
+    height: 29.7cm;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#lado_izquierdo{
+    height: 100%;
+    width: 30%;
+    background-color: blue;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    padding: 5px 0 5px 5px;
+    border: 5px solid black;
+    border-right: none;
+}
+
+#lado_derecho{
+    height: 100%;
+    width: 70%;
+    background-color: red;
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    padding: 5px 5px 5px 0;
+    border: 5px solid black;
+    border-left: none;
+}
