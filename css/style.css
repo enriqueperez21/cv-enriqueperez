@@ -29,10 +29,16 @@ body{
     position: absolute;
     left: 0%;
     top: 0%;
-    padding: 5px 0 5px 5px;
-    border: 5px solid black;
-    border-right: none;
+    padding: 0;
 }
+
+#Foto_principal img{
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+
 
 #lado_derecho{
     height: 100%;
