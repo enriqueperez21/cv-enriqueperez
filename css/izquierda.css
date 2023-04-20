@@ -8,20 +8,28 @@
 #Nombre_completo{
     position: absolute;
     right: 0%;
-    width: 80%;
+    width: 65%;
     height: 5%;
     background-color: #2d3e4e;
     top: 20%;
+    right: 18%;
     text-align: center;
     padding-top: 3%;
     transform: skewX(-7deg);
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
+    
 }
 
+@font-face {
+    font-family: 'Lato Light';
+    src: url('../source/Lato/Lato-Light.ttf') format('truetype');
+  }
+  
 #Nombre_completo h1{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato Light', sans-serif;
     font-size: 17px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .orange{
