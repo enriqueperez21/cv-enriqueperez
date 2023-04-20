@@ -4,7 +4,7 @@
     height: 40%;
     position: relative;
 }
-
+/*Estilo del cuadro del nombre*/
 #Nombre_completo{
     position: absolute;
     right: 0%;
@@ -19,12 +19,13 @@
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
     
 }
-
+/*Importación de fuente Lato Light descargada en local*/
 @font-face {
     font-family: 'Lato Light';
     src: url('../source/Lato/Lato-Light.ttf') format('truetype');
-  }
+}
   
+/*Estilos al nombre dentro del cuadro*/
 #Nombre_completo h1{
     font-family: 'Lato Light', sans-serif;
     font-size: 17px;
