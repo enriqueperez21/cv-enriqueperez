@@ -38,7 +38,22 @@ body{
     position: relative;
 }
 
+#Nombre_completo{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    height: 3%;
+    background-color: white;
+    top: 22%;
+    text-align: center;
+    padding-top: 6px;
+    
+}
 
+#Nombre_completo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
 
 #lado_derecho{
     height: 100%;
@@ -47,7 +62,4 @@ body{
     position: absolute;
     left: 30%;
     top: 0%;
-    padding: 5px 5px 5px 0;
-    border: 5px solid black;
-    border-left: none;
 }
