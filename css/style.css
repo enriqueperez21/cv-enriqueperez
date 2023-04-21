@@ -40,6 +40,11 @@ body{
     left: 30%;
     top: 0%;
 }
+
 .orange{
     background-color: #EE5722;
+}
+
+.white{
+    background-color: white;
 }
