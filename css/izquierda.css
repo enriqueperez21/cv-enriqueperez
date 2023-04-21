@@ -2,8 +2,9 @@
 #Foto_principal img{
     width: 100%;
     height: 40%;
-    position: relative;
+    position: static;
 }
+
 /*Estilo del cuadro del nombre*/
 #Nombre_completo{
     position: absolute;
@@ -17,14 +18,14 @@
     padding-top: 3%;
     transform: skewX(-7deg);
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
-    
 }
+
 /*Importación de fuente Lato Light descargada en local*/
 @font-face {
     font-family: 'Lato Light';
     src: url('../source/Lato/Lato-Light.ttf') format('truetype');
 }
-  
+
 /*Estilos al nombre dentro del cuadro*/
 #Nombre_completo h1{
     font-family: 'Lato Light', sans-serif;
@@ -33,7 +34,27 @@
     text-transform: uppercase;
 }
 
-.orange{
-    background-color: #EE5722;
-    padding-top: 8%;
+.Datos_personales{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.Datos_personales h1{
+    color: white;
+    margin-top: 5%;
+    margin-bottom:8%;
+    font-size: 1.5em;
+    font-family: 'Lato Light', sans-serif;
+}
+
+#Carrera{
+    font-size: 1.4em;
+}
+
+.Datos_personales b{
+    color: #2d3e4e;
+}
+
+.Datos_personales p{
+    font-size: 1.4em;
 }

@@ -22,7 +22,7 @@ body{
     transform: translate(-50%, 0);
 }
 
-#lado_izquierdo{
+.lado_izquierdo{
     height: 100%;
     width: 30%;
     background-color: blue;
@@ -39,4 +39,7 @@ body{
     position: absolute;
     left: 30%;
     top: 0%;
+}
+.orange{
+    background-color: #EE5722;
 }
