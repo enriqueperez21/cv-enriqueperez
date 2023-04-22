@@ -143,3 +143,36 @@
     transform: skewX(-7deg);
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
 }
+
+/*Información de contacto*/
+.Informacion_de_contacto{
+    width: 100%;
+    height: 27%;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+}
+
+.Informacion_de_contacto h1{
+    font-family: 'Lato Light', sans-serif;
+    font-size: 1.1em;
+    color: #524f4e;
+    text-transform: uppercase;
+    margin-bottom: 7%;
+}
+
+.Informacion_de_contacto a{
+    color: #2d3e4e;
+    text-decoration: none;
+}
+
+.Informacion_de_contacto a img{
+    inline-size: 12%;
+    position: absolute;
+    bottom: 6%;
+    left: 45%;
+}
+
+.Informacion_de_contacto p{
+    margin-bottom: 7%;
+}
