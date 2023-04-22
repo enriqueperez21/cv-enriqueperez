@@ -49,16 +49,12 @@
     font-family: 'Lato Light', sans-serif;
 }
 
-#Carrera{
-    font-size: 1.4em;
-}
-
 .Datos_personales b{
     color: #2d3e4e;
 }
 
 .Datos_personales p{
-    font-size: 14px;
+    font-size: 1.3em;
     margin: 3%;
 }
 
