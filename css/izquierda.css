@@ -61,7 +61,7 @@
 /*Redes Sociales*/
 .Redes_sociales{
     width: 100%;
-    height: 35%;
+    height: 38%;
     margin-top: 8%;
     text-align: center;
 }
@@ -147,7 +147,7 @@
 /*Información de contacto*/
 .Informacion_de_contacto{
     width: 100%;
-    height: 27%;
+    height: 24%;
     text-align: center;
     position: absolute;
     bottom: 0%;
@@ -169,7 +169,7 @@
 .Informacion_de_contacto a img{
     inline-size: 12%;
     position: absolute;
-    bottom: 6%;
+    bottom: 2%;
     left: 45%;
 }
 
