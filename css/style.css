@@ -25,17 +25,15 @@ body{
 .lado_izquierdo{
     height: 100%;
     width: 30%;
-    background-color: blue;
     position: absolute;
     left: 0%;
     top: 0%;
     padding: 0;
 }
 
-#lado_derecho{
+.lado_derecho{
     height: 100%;
     width: 70%;
-    background-color: red;
     position: absolute;
     left: 30%;
     top: 0%;
