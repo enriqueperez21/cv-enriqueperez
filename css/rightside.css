@@ -4,9 +4,18 @@
 }
 
 #barra_superior ul{
+    text-align: right;
     list-style: none;
     margin: 0;
 }
+
+#barra_superior ul a{
+    text-decoration: none;
+}
+#barra_superior ul p{
+    color: white;
+}
+
 
 #barra_superior li{
     display: inline-block;
@@ -22,9 +31,6 @@
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
 }
 
-.cabecera{
-    padding-top: 0;
-}
 
 .titulo h1{
     letter-spacing: 0.1em;
@@ -50,6 +56,9 @@
     text-decoration: none;
 }
 
+.background_orange{
+    padding-bottom: 1.5em;
+}
 
 .background_orange h2{
     color: #2d3e4e;
@@ -85,7 +94,8 @@
 }
 
 .background_white{
-    padding-bottom: 0.6em;
+    padding-bottom: 1.5em;
+
 }
 
 .background_white h2{
@@ -107,8 +117,7 @@
 }
 
 .background_blue{
-    padding-bottom: 0.6em;
-    border-bottom: 2px solid #2d3e4e;
+    padding-bottom: 1em;
 }
 
 .background_blue h2{
@@ -171,4 +180,27 @@
     margin-top: 0.3em;
     margin-bottom: 0.3em;
     font-family: 'Lato Light', sans-serif;
+}
+
+.qr img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 5%;
+    bottom: 3%;
+}
+
+.qr h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Lato Light', sans-serif;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    vertical-align: bottom;
+    width: 100%;
+    background-color: #EE5722;
+    box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
 }
