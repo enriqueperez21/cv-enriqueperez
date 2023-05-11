@@ -15,7 +15,7 @@
     top: 20%;
     right: 18%;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 2px;
     transform: skewX(-7deg);
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
 }
