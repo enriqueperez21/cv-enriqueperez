@@ -21,7 +21,6 @@
     display: inline-block;
     text-align: center;
     margin: 0;
-    padding-top: 1%;
     padding-left: 0.3em;
     padding-right: 0.3em;
     font-size: 1.3em;
@@ -81,8 +80,6 @@
 .background_orange li{
     color: #fff;
     font-size: 1.1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
     font-family: 'Lato Light', sans-serif;
 }
 
@@ -150,8 +147,6 @@
 .background_blue li{
     color: #fff;
     font-size: 1.1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
     font-family: 'Lato Light', sans-serif;
 }
 
@@ -179,16 +174,12 @@
 #cuadros p{
     color: #fff;
     font-size: 1.1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
     font-family: 'Lato Light', sans-serif;
 }
 
 .qr img{
-    display: block;
     width: 80px;
     height: 80px;
-    position: absolute;
     right: 1em;
     bottom: 2.1em;
 }
@@ -200,7 +191,6 @@
     text-align: center;
     font-size: 1.1em;
     font-family: 'Lato Light', sans-serif;
-    position: absolute;
     bottom: 0%;
     left: 0%;
     vertical-align: bottom;
