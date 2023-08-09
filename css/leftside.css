@@ -1,21 +1,33 @@
+#Foto_principal{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*Estilos del lado izquierdo*/
 #Foto_principal img{
     width: 100%;
-    height: 40%;
-    position: static;
+    height: 100%;
 }
 
-/*Estilo del cuadro del nombre*/
 #Nombre_completo{
     position: absolute;
-    right: 0%;
-    width: 65%;
-    height: 5%;
+    top: 210px;
+}
+
+
+/*Estilo del cuadro del nombre*/
+#Nombre_completo h1{
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
     background-color: #2d3e4e;
-    top: 20%;
-    right: 18%;
-    text-align: center;
-    padding-top: 2px;
     transform: skewX(-7deg);
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
 }
@@ -36,16 +48,19 @@
 
 /*Datos personales*/
 .Datos_personales{
-    padding-top: 10%;
-    text-align: center;
+    display: flex;
+    flex: 0.9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 
 .Datos_personales h1{
     color: white;
     margin-top: 5%;
-    margin-bottom:8%;
-    font-size: 1.5rem;
+    font-size: 23px;
     font-family: 'Lato Light', sans-serif;
 }
 
@@ -54,28 +69,56 @@
 }
 
 .Datos_personales p{
-    font-size: 1.3em;
-    margin: 3%;
+    font-size: 22px;
 }
 
 /*Redes Sociales*/
 .Redes_sociales{
-    width: 100%;
-    height: 38%;
-    margin-top: 8%;
-    text-align: center;
+    display: flex;
+    flex: 1.7;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Redes_sociales h1{
+    display: flex;
     font-family: 'Lato Light', sans-serif;
-    font-size: 1.2em;
+    font-size: 20px;
     color: #524f4e;
-
+    justify-content:  center;
 }
 
-.red_social{
-    margin-top: 5%;
-    margin-bottom: 15%;
+.red_social1{
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red_social1 a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red_social2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red_social2 a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red_social3{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Redes_sociales .links_social a{
@@ -84,95 +127,71 @@
 }
 
 .Redes_sociales .red_social1 img{
-    width: 40%;
+    width: 60%;
+    
 }
 
 .Redes_sociales .red_social2 img{
-    width: 25%;
+    width: 55%;
 }
 
 .Redes_sociales .red_social3 img{
-    width: 50%;
-}
-
-.red_social2{
-    margin-top: 20%;
-}
-
-.red_social3{
-    margin-top: 30%;
-}
-
-.linkedin{
-    font-size: 1em;
-    padding-top: 1%;
-    position: absolute;
     width: 90%;
-    height: 2%;
-    left: 6%;
+}
+
+
+.Redes_sociales h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 7px;
     background-color: #2d3e4e;
-    text-align: center;
     transform: skewX(-7deg);
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
 }
 
-
-.git_hub{
-    font-size: 1em;
-    padding-top: 1%;
-    position: absolute;
-    width: 65%;
-    height: 2%;
-    left: 18%;
-    background-color: #2d3e4e;
-    text-align: center;
-    transform: skewX(-7deg);
-    box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
-}
-
-.hacker_rank{
-    font-size: 1em;
-    padding-top: 1%;
-    margin-top: 4%;
-    position: absolute;
-    width: 55%;
-    height: 2%;
-    left: 22%;
-    background-color: #2d3e4e;
-    text-align: center;
-    transform: skewX(-7deg);
-    box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
-}
 
 /*Información de contacto*/
 .Informacion_de_contacto{
-    width: 100%;
-    height: 24%;
-    text-align: center;
-    position: absolute;
-    bottom: 0%;
+    flex: 1.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Informacion_de_contacto h1{
     font-family: 'Lato Light', sans-serif;
-    font-size: 1.1em;
+    font-size: 18px;
     color: #524f4e;
     text-transform: uppercase;
-    margin-bottom: 7%;
+    text-align: center;
 }
 
 .Informacion_de_contacto a{
     color: #2d3e4e;
     text-decoration: none;
+    text-align: center;
+    flex: 2;
+    justify-content: space-between;
+}
+
+.Informacion_de_contacto article{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Informacion_de_contacto a img{
-    inline-size: 12%;
-    position: absolute;
-    bottom: 2%;
-    left: 45%;
+    width: 70%;
 }
 
 .Informacion_de_contacto p{
-    margin-bottom: 7%;
+    font-size: 16px;
 }

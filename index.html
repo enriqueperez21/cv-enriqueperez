@@ -12,157 +12,182 @@
 </head>
 <body>
     <div id="hoja">
-
+        <!-- Lado izquierdo de CV -->
         <div class="lado_izquierdo orange">
-
-            <div id="Foto_principal">
-                <img src="source/Foto-1-Luis-Enrique-Pérez.jpg" alt="Foto">
-                <div id="Nombre_completo">
-                    <h1>Luis Enrique <br> Perez Señalin</h1>
+            <div class="content_left">
+                <!-- Espacio de la foto del CV -->
+                <div id="Foto_principal">
+                    <img src="source/Foto-1-Luis-Enrique-Pérez.jpg" alt="Foto">
+                    <div id="Nombre_completo">
+                        <h1>Luis Enrique <br> Perez Señalin</h1>
+                    </div>
                 </div>
+                <!-- Espacio de los datos personales -->
+                <section class="orange Datos_personales">
+                    <h1>Estudiante de la EPN</h1>
+                    <p><b>Carrera:</b> Computación</p>
+                    <p><b>Edad:</b> 20 Años</p>
+                    <p><b>País:</b> Ecuador</p>
+                </section>
+                <!-- Espacio de las redes sociales -->
+                <section class="white Redes_sociales">
+                    <br/><h1>REDES SOCIALES</h1>
+                    <!-- Linkedin -->
+                    <article class="red_social1 links_social">
+                        <a href="https://www.linkedin.com/in/luis-enrique-p%C3%A9rez/" target="_blank">
+                            <img src="source/linkedin_icon.svg" alt="linkedin">
+                            <h2 class="linkedin">@Luis Enrique Pérez Señalin</h2>
+                        </a>
+                    </article>
+                    <!-- Github -->
+                    <article class="red_social2 links_social" target="_blank">
+                        <a href="https://github.com/enriqueperez21" target="_blank">
+                            <img src="source/github-logo_icon.svg" alt="github">
+                            <h2 class="git_hub">@enriqueperez21</h2>
+                        </a>
+                    </article>
+                </section>
+                <!-- Espaciop de informacion de contacto -->
+                <section class="white Informacion_de_contacto">
+                    <br /><h1>Información de contacto</h1>
+                    <article>
+                        <a href="mailto:luis.enrique.p.s.contacto@gmail.com" target="_blank">
+                            <p>luis.enrique.p.s.contacto <br /> @gmail.com</p>
+                        </a>
+                        <a href="mailto:luis.perez05@epn.edu.ec" target="_blank">
+                            <p>luis.perez05@epn.edu.ec</p>
+                        </a>
+                        <br /><a href="tel:+593995748422" target="_blank">
+                            +593995748422
+                        </a>
+                        <br /><a href="https://wa.me/593995748422" target="_blank">
+                           <p>whatsapp</p><br /><img src="source/whatsapp_icon.svg" alt="whatsapp">
+                        </a>
+                    </article>
+                </section>
             </div>
-            <section class="orange Datos_personales">
-                <h1>Estudiante de la EPN</h1>
-                <p><b>Carrera:</b> Computación</p>
-                <p><b>Edad:</b> 20 Años</p>
-                <p><b>País:</b> Ecuador</p>
-            </section>
-            
-            <section class="white Redes_sociales">
-                <br/><h1>REDES SOCIALES</h1>
+        </div>
+        <!-- Fin de lado izquierdo del CV -->
 
-                <article class="red_social red_social1 links_social">
-                    <a href="https://www.linkedin.com/in/luis-enrique-p%C3%A9rez/" target="_blank">
-                        <img src="source/linkedin_icon.svg" alt="linkedin">
-                        <h2 class="linkedin">@Luis Enrique Pérez Señalin</h2>
-                    </a>
-                </article>
-
-                <article class="red_social red_social2 links_social" target="_blank">
-                    <a href="https://github.com/enriqueperez21" target="_blank">
-                        <img src="source/github-logo_icon.svg" alt="github">
-                        <h2 class="git_hub">@enriqueperezse</h2>
-                    </a>
-                </article>
-
-                <article class="red_social3 links_social">
-                    <a href="https://www.hackerrank.com/luis_perez05" target="_blank">
-                        <img src="source/hackerrank_icon.svg" alt="hacker rank">
-                        <h2 class="hacker_rank">@luis_perez05</h2>
-                    </a>
-                </article>
-
-            </section>
-
-            <section class="white Informacion_de_contacto">
-                <br /><h1>Información de contacto</h1>
-                <article>
-                    <a href="mailto:luis.enrique.p.s.contacto@gmail.com" target="_blank">
-                        luis.enrique.p.s.contacto <br /> @gmail.com</p>
-                    </a>
-                    <a href="mailto:luis.perez05@epn.edu.ec" target="_blank">
-                        <p>luis.perez05@epn.edu.ec</p>
-                    </a>
-                    <br /><a href="tel:+593995748422" target="_blank">
-                        +593995748422
-                    </a>
-                    <br /><a href="https://wa.me/593995748422" target="_blank">
-                       <p>whatsapp</p><br /><img src="source/whatsapp_icon.svg" alt="whatsapp">
-                    </a>
+        <!-- Inicio de lado derecho del CV -->
+        <div class="lado_derecho">
+            <div class="content_right">
+                <!-- Barra superior -->
+                <div id="barra_superior">
+                    <ul>
+                        <li> <a href="source/CV-Enrique Perez.pdf" target="_blank"><p> Visualizar PDF </p> </a> </li>
+                    </ul>
+                </div>
+                <!-- Parte de Certificaciones -->
+                <article class="azul_oscuro background_blue" style="display: flex; flex-direction: column; flex: 0.9">
+                    <div class="primary_content">
+                        <div class="content_title">
+                        <h1 style="background-color: #EE5722">Certificaciones</h1>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="padding_top" style="padding-top: 38px;">
+                        <ul>
+                            <li><a href="https://learn.microsoft.com/es-es/users/luisenriqueperezsenalin-2663/credentials/8640ecdc764e01d1" target="_blank">
+                                Azure Fundamentals AZ-900
+                            </a></li>
+                            
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/D85FJVXTZUX3" target="_blank">
+                                GIT y Git-hub  Coursera: Atlassian University
+                            </a></li>
+                            <li>Javascript Fundamentals Essentiales JSE</li>
+                        </ul>
+                    </div>
                 </article>
                 
-            </section>
-        </div>
-
-        <div class="lado_derecho">
-
-            <div id="barra_superior">
-                <ul>
-                    <li> <a href="source/CV-Enrique Perez.pdf" target="_blank"><p> Visualizar PDF </p> </a> </li>
-                </ul>
+                <article class="white background_white titulo" style="flex: 1">
+                    <div class="primary_content">
+                        <div class="content_title">
+                        <h1 >Experiencia</h1>
+                        </div>
+                    </div>
+                    <div class="padding_top" style="padding-bottom: 20px;">
+                        <h2>Pasantias en Clear minds Consultores</h2>
+                        <p><b>Actividades: </b>Desarrollo de aplicación pública para la empresa</p>
+                        <p><b>Tecnologías: </b>React Native con JS, Firebase con nodejs en js y manejo de versiones con GIT</p>
+                        <p><b>Aprendizaje: </b>Organizar y desarrollar con buenas practicas un proyecto dentro de un equipo</p>
+                        <p><b>Tiempo:  </b>Progreso de 2 meses</p>
+                        <h2>Pasantias en Kruger - Kruger Garage</h2>
+                        <p><b>Actividades: </b>Desarrollo de sitio web interno para la empresa</p>
+                        <p><b>Tecnologías: </b>CMS y consumo de apis </p>
+                        <p><b>Aprendizaje: </b>Crear e implementar sistemas necesarios para usuarios dentro de la empresa e implementar la metodología SCRUM</p>
+                        <p><b>Tiempo: </b>Progreso de cerca de 3</p>
+                    </div>
+                </article>
+    
+                <article class="orange background_orange titulo" style="flex: 1">
+                    <div class="primary_content">
+                        <div class="content_title">
+                        <h1>conocimientos</h1>
+                        </div>
+                    </div>
+                    <div class="padding_top" style="padding-bottom: 10px;">
+                        <h2>Desarrollo mobil</h2>
+                        <p>Desarrollo mobil en React Native con Javascript</p>
+                        <p>Conexión a base de datos con Firebase en Nodejs con javascript</p>
+                    </div>
+                </article>
+                
+                <article class="azul_oscuro cabecera background_blue titulo">
+                    <div class="primary_content">
+                        <div class="content_title">
+                        <h1 style="background-color: #EE5722">Perfil</h1>
+                        </div>
+                    </div>
+                    <br />
+                    <div style="padding-top: 15px; padding-bottom: 0;">
+                        <div id="cuadros">
+                            <h2>Aprendizaje en curso</h2>
+                            <ul>
+                                <li>AZ204: Developing Solutions for Microsoft Azure</li>
+                                <li>Javascript Associate</li>
+                            </ul>
+                            <br>
+                            <h2>Metas Profesionales</h2>
+                            <ul>
+                                <li>Aprender y mejorar en el desarrollo de software</li>
+                                <br/>
+                                <li>Desarrollar sistemas completos que ayuden en las necesidades diarias</li>
+                            </ul>
+                        </div>
+                        <div id="cuadros" style="padding-bottom: 0;">
+                            <h2>IDIOMAS</h2>
+                            <ul>
+                                <li>Inglés: B1.1</li>
+                                <li>Frances: A1.1</li>
+                            </ul>
+                            <br/>
+                            <h2>Metas Personales</h2>
+                            <ul>
+                                <li>Aprender y conocer diversos lugares que me permitan mejorar como persona</li>
+                                <br/>
+                                <li>Viajar para practicar y mejorar en otros idiomas importantes y de mi interés</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+    
+                <article class="white background_white titulo qr" style="flex: 1">
+                    <div class="primary_content">
+                        <div class="content_title">
+                        <h1 style="margin-top: 0;">QR CV-ONLINE</h1>
+                        </div>
+                    </div>
+                    <div class="padding_top QR" >
+                        <h2 >Version Web :</h2>
+                        <img src="source/QR.png" alt="QR">
+                    </div>
+                </article>
+                <article class="white titulo qr">
+                    <h3>Currículum vitae sujeto a cambios - Última versión: 24/4/2023</h3>
+                </article> 
             </div>
-
-            <article class="azul_oscuro background_blue titulo">
-                <h1 style="width: 10.5em;  background-color: #EE5722;">Conocimientos</h1>
-                <br />
-                <ul>
-                    <li>Visual studio Code</li>
-                    <li>GIT y Git-hub</li>
-                    <li>Bash scripting</li>
-                    <li>AZ-900: Microsoft Azure Fundamentals</li>
-                    <li>Creación de páginas web con HTML y CSS</li>
-                </ul>
-            </article>
-
-            <article class="white background_white titulo">
-                <h1>Herramientas</h1>
-                <h2>/Entorno de desarrollo/</h2>
-                <p>Codespace de git-hub en Visual Studio Code.</p>
-                <p>Repositorios en git-hub.</p>
-                <p>Despliege con git-hub pages.</p>
-            </article>
-            
-            <article class="orange background_orange titulo">
-                <h1 style="width: 8.5em;">Experiencia</h1>
-                <h2>/Creación de CV/</h2>
-                <p><b>Tecnologías:</b> HTML, CSS, Git, git-hub 100% desde 0</p>
-                <a href="https://github.com/enriqueperez21/cv-enriqueperez" target="_blank">
-                    <p>
-                        <b>Repositorio:</b>
-                        github.com/enriqueperez21/cv-enriqueperez
-                    </p>
-                </a>
-            </article>
-
-            <article class="azul_oscuro cabecera background_blue titulo">
-                <h1 style="width: 5em; background-color: #EE5722;">Perfil</h1>
-                <br />
-                <div id="cuadros">
-                    <h2>Aprendizaje en curso</h2>
-                    <ul>
-                        <li>CS50x Harvard</li>
-                        <li>Odin Proyecto</li>
-                        <li>AZ204: Developing Solutions for Microsoft Azure</li>
-                        <li>Linux Esentials</li>
-                    </ul>
-                    <br><br>
-                    <h2>HABILIDADES TÉCNICAS</h2>
-                    <p>Mantenimiento preventivo de equipos de oficina,
-                        personales (portátiles, sobremesa). <br /> <br />
-                        Armado de equipo y conocimientos de componentes de computador.
-                    </p>
-
-                </div>
-                <div id="cuadros">
-                    <h2>IDIOMAS</h2>
-                    <ul>
-                        <li>Inglés: B1.1</li>
-                        <li>Frances: A1.1</li>
-                    </ul>
-                    <br>
-                    <h2>PASATIEMPO</h2>
-                    <p>Atletismo, salir a caminar, 
-                        expandir mis conocimientos en el area del desarrollo.
-                    </p>
-                    <br>
-                    <h2>CONOCIMIENTOS FUERA DEL AREA TÉCNICA</h2>
-                    <p>Edición básica de video con Davinici (recorte de video, audio, etc),
-                         edición simple de imágenes con Photoshop (recortes, cambio de fondo, etc),
-                    </p>
-                </div>
-            </article>
-
-            <article class="white background_white titulo qr">
-                <h1>QR CV-ONLINE</h1>
-                <h2>VERSION (GITHUB PAGES) :</h2>
-                <img src="source/QR.png" alt="QR">
-            </article>
-            <article class="white background_white titulo qr">
-                <h3>Currículum vitae sujeto a cambios - Última versión: 24/4/2023</h3>
-            </article> 
-
         </div>
-
     </div>
 </body>
 </html>

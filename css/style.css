@@ -10,35 +10,46 @@
   }
 
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(83, 87, 86, 0.726);
-}  
+}
 
 #hoja{
-    width: 21cm;
-    height: 29.7cm;
+    display: flex;
+    flex-direction: row;
+    width: 793.7px;
+    height: 1122.52px;
     background-color: white;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
 }
 
 .lado_izquierdo{
-    height: 100%;
-    width: 30%;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    padding: 0;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
 }
+
+.content_left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 .lado_derecho{
-    height: 100%;
-    width: 70%;
-    position: absolute;
-    left: 30%;
-    top: 0%;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
 }
 
+.content_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .orange{
     background-color: #EE5722;
 }

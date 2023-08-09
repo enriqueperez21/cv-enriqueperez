@@ -21,33 +21,37 @@
     display: inline-block;
     text-align: center;
     margin: 0;
-    padding-top: 1%;
     padding-left: 0.3em;
     padding-right: 0.3em;
-    font-size: 1.3em;
+    font-size: 20px;
     color: #0b1163;
     height: 100%;
     background-color: #0b1163;
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
 }
 
+.padding_top{
+    padding-top: 25px;
+}
+.primary_content{
+    position: absolute;
+    margin-top: 0;
+}
+.content_title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
 
-.titulo h1{
-    letter-spacing: 0.1em;
-    margin: 0;
-    margin-left: 1%;
-    padding-top: 0.2em;
-    padding-left: 0.3em;
-    padding-bottom: 0.2em;
+.content_title h1{
+    margin-top: 0;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 5px 8px;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    width: 9.5em;
-    height: 1.5em;
-    position: relative;
-    text-align: left;
     transform: skewX(-7deg);
     background-color: #2d3e4e;
     box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
@@ -58,7 +62,8 @@
 }
 
 .background_orange{
-    padding-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
 }
 
 .background_orange h2{
@@ -66,7 +71,7 @@
     padding-top: 0.5em;
     padding-left: 0.7em;
     padding-bottom: 0.2em;
-    font-size: 1.3em;
+    font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-transform: uppercase;
@@ -80,10 +85,13 @@
 
 .background_orange li{
     color: #fff;
-    font-size: 1.1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    font-size: 18px;
     font-family: 'Lato Light', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#fff
 }
 
 .background_orange p{
@@ -91,12 +99,12 @@
     padding-top: 0.5em;
     padding-left: 1em;
     padding-bottom: 0.2em;
-    font-size: 1.2em;
+    font-size: 18px;
 }
 
 .background_white{
-    padding-bottom: 1.5em;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .background_white h2{
@@ -104,7 +112,7 @@
     padding-top: 0.5em;
     padding-left: 0.7em;
     padding-bottom: 0.2em;
-    font-size: 1.3em;
+    font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-transform: uppercase;
@@ -114,11 +122,10 @@
     padding-top: 0.2em;
     padding-left: 1em;
     padding-bottom: 0.1em;
-    font-size: 1.2em;
+    font-size: 19px;
 }
 
 .background_blue{
-    padding-bottom: 0.1em;
     display: block;
 }
 
@@ -127,7 +134,7 @@
     padding-top: 0.5em;
     padding-left: 0.7em;
     padding-bottom: 0.2em;
-    font-size: 1.1em;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-transform: uppercase;
@@ -138,7 +145,7 @@
     padding-top: 0.5em;
     padding-left: 1em;
     padding-bottom: 0.3em;
-    font-size: 0.5em;
+    font-size: 10px;
 }
 
 .background_blue ul{
@@ -149,10 +156,9 @@
 
 .background_blue li{
     color: #fff;
-    font-size: 1.1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    font-size: 18px;
     font-family: 'Lato Light', sans-serif;
+    margin-top: 6px;
 }
 
 #cuadros{
@@ -169,7 +175,7 @@
     padding-top: 0.5em;
     padding-left: 0.7em;
     padding-bottom: 0.2em;
-    font-size: 1.1em;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 900;
@@ -178,17 +184,25 @@
 
 #cuadros p{
     color: #fff;
-    font-size: 1.1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    font-size: 18px;
     font-family: 'Lato Light', sans-serif;
 }
 
+.QR{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.QR h2{
+    display: flex;
+    align-items: center;
+}
+
 .qr img{
-    display: block;
     width: 80px;
     height: 80px;
-    position: absolute;
     right: 1em;
     bottom: 2.1em;
 }
@@ -198,9 +212,8 @@
     padding-bottom: 0.2em;
     color: #ffffff;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 17px;
     font-family: 'Lato Light', sans-serif;
-    position: absolute;
     bottom: 0%;
     left: 0%;
     vertical-align: bottom;
